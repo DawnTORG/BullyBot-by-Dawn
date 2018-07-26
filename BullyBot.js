@@ -14,7 +14,7 @@ client.on('message', message => {
 	
 	if(message.author.bot) return;
 	
-	if(message.content.startsWith("!pn"));
+	if(message.content.startsWith(prefix + "pn"));
 	{
 		   	mention = message.mentions.users.first();
 	//Die ausgabe an Admin und User
