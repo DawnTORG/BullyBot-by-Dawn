@@ -65,7 +65,7 @@ client.on('message', message => {
 	else if(message.content.toLowerCase() === prefix + 'help'){
 		message.delete();
 		message.author.send('```css\nAlles worauf der Bot eine Antwort gibt: \n"ich will lachen"\n"ich bin traurig"\n"was stinkt hier so"\n"ich bin glücklich"\n"meine mutter stinkt nicht"\n"komm privat"\n"das sage ich meiner mutter"\n"jetzt reicht es"\n"mir ist langweilig"\n"du bist unlustig"\n"ich bin ein gangster"\n"warum ist dir das so wichtig"\n"wie viel erde ist in einem loch"\n"warum bist du so gemein"\n"ist es nachts kälter als drausen"\n\nWeitere Updates in Arbeit```');
-	        message.author.send('```css\nPN funktion: Du kannst in dem du !pn (eine Person) (die Nachricht) , eingibst anonym eine Nachricht verschicken. ```);
+	        message.author.send('```css\nPN funktion: Du kannst in dem du !pn (eine Person) (die Nachricht) , eingibst anonym eine Nachricht verschicken. ```');
 		message.author.send('```css\n\nAlles muss klein geschriben werden und ohne Sonderzeichen```');
 		console.log("\n\nEs wurde die Help-liste Aufgerufen")
 	}
