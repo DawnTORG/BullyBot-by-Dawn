@@ -40,7 +40,7 @@ client.on('message', message => {
 		message.reply('```css\ndeine Mutter```');
 	else if(message.content.toLowerCase() === 'meine mutter stinkt nicht')
 		message.reply('```css\nNa, dann bist du das. Geh Duschen!```');
-    else if(message.content.toLowerCase() === 'komm privat'){
+        else if(message.content.toLowerCase() === 'komm privatchat'){
 		message.author.sendMessage('```css\nmach mal keinen Stress hier sonst hau ich dich mit meine Bot-Freunden```');
 		message.reply('```css\nok schau Privat```');}
 	else if(message.content.toLowerCase() === 'das sage ich meiner mutter')
@@ -70,7 +70,7 @@ client.on('message', message => {
 	//!help 
 	if(message.content.toLowerCase() === prefix + 'help'){
 		message.delete();
-		message.author.send('```css\nAlles worauf der Bot eine Antwort gibt: \n"ich will lachen"\n"ich bin traurig"\n"was stinkt hier so"\n"ich bin glücklich"\n"meine mutter stinkt nicht"\n"komm privat"\n"das sage ich meiner mutter"\n"jetzt reicht es"\n"mir ist langweilig"\n"du bist unlustig"\n"ich bin ein gangster"\n"warum ist dir das so wichtig"\n"wie viel erde ist in einem loch"\n"warum bist du so gemein"\n"ist es nachts kälter als drausen"\n"ist mayonnaise auch ein instrument"\n\nWeitere Updates in Arbeit```');
+		message.author.send('```css\nAlles worauf der Bot eine Antwort gibt: \n"ich will lachen"\n"ich bin traurig"\n"was stinkt hier so"\n"ich bin glücklich"\n"meine mutter stinkt nicht"\n"komm privatchat"\n"das sage ich meiner mutter"\n"jetzt reicht es"\n"mir ist langweilig"\n"du bist unlustig"\n"ich bin ein gangster"\n"warum ist dir das so wichtig"\n"wie viel erde ist in einem loch"\n"warum bist du so gemein"\n"ist es nachts kälter als drausen"\n"ist mayonnaise auch ein instrument"\n\nWeitere Updates in Arbeit```');
        	message.author.send('```css\nPN funktion: Du kannst in dem du !pn (eine Person) (die Nachricht) , eingibst anonyme Nachrichten verschicken. ```');   
 	    message.author.send('```css\n\nAlles muss klein geschriben werden und ohne Sonderzeichen```');
 		console.log("\n\nEs wurde die Help-liste Aufgerufen")
