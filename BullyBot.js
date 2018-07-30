@@ -63,7 +63,7 @@ client.on('message', message => {
 		message.reply('```css\nJa die sind genau so langweilig wie du```');
 	else if(message.content.toLowerCase() === 'ist es nachts kälter als drausen'){
 	        message.reply('```css\nJa aber nur weil es zu dunkel ist um etwas zu hören```');}
-	else if(message.content.toLowerCase() === 'ist mayonnaise auch ein instrument');{
+	else if(message.content.toLowerCase() === 'ist mayonnaise auch ein instrument'){
 		message.reply('```css\nNein, Patrick Mayonnaise ist keiiin Instrument!```');}
 	     
 	
