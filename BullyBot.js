@@ -65,7 +65,7 @@ client.on('message', message => {
 	        message.reply('```css\nJa aber nur weil es zu dunkel ist um etwas zu hören```');}
 	else if(message.content.toLowerCase() === 'ist mayonnaise auch ein instrument'){
 		message.reply('```css\nNein, Patrick Mayonnaise ist keiiin Instrument!```');}
-	else if(message.cntent.toLowerCase() === 'lutsch mir die eier'){
+	else if(message.content.toLowerCase() === 'lutsch mir die eier'){
 		message.reply('```css\nDo you are have stupid```');}
 	     
 	
