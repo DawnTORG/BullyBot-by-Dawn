@@ -56,7 +56,7 @@ client.on('message', message => {
 	else if(message.content.toLowerCase() === 'warum ist dir das so wichtig')
 		message.reply('```css\nWeil mein Ruf kaputt geht```');
 	else if(message.content.toLowerCase() === 'wie viel erde ist in einem loch')
-		message.reply('```css\nSoviel wie du Gehrin in deinem Kopf```');
+		message.reply('```css\nSoviel wie du Gehirn in deinem Kopf```');
 	else if(message.content.toLowerCase() === 'warum bist du so gemein')
 		message.reply('```css\nIch bin doch nicht gemein...nur ehrlich```');
 	else if(message.content.toLowerCase() === 'sind die anderen Bots hier auch so gemein')
